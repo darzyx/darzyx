@@ -8,7 +8,7 @@ const Contact = () => (
     </h2>
     <div className="content">
       <form
-        action="https://formspree.io/josedario.xyz@gmail.com"
+        action="https://formspree.io/xbnpknpx"
         className="form"
         method="POST"
       >
@@ -35,9 +35,9 @@ const Contact = () => (
       </form>
       <div className="external">
         <div className="info-row">
-          <h4 className="location">Palmdale, CA</h4>
+          <h4 className="location">Pittsburgh, PA</h4>
           <h4 className="phone-number">(661) 424-7600</h4>
-          <h4 className="email-address">josedario.xyz@gmail.com</h4>
+          <h4 className="email-address">dario.zyx@gmail.com</h4>
         </div>
         <div className="divider-row">
           <hr className="divider" />
@@ -47,7 +47,7 @@ const Contact = () => (
             <a
               aria-label="My LinkedIn"
               className="tooltipped"
-              href="http://www.linkedin.com/in/josedarioxyz"
+              href="http://www.linkedin.com/in/darzyx"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -59,7 +59,7 @@ const Contact = () => (
             <a
               aria-label="Send Email"
               className="tooltipped"
-              href="mailto:josedario.xyz@gmail.com"
+              href="mailto:dario.zyx@gmail.com"
             >
               <span className="tooltip">Email</span>
               <i className="icon-email"></i>
@@ -69,7 +69,7 @@ const Contact = () => (
             <a
               aria-label="My GitHub"
               className="tooltipped"
-              href="http://www.github.com/josedarioxyz"
+              href="http://www.github.com/darzyx"
               rel="noopener noreferrer"
               target="_blank"
             >

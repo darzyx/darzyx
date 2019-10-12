@@ -10,7 +10,7 @@ export const ProjectsData = [
       { name: "React Router", link: "https://reacttraining.com/react-router/" }
     ],
     demoLink: "https://www.avhappenings.com/",
-    sourceLink: "https://github.com/josedarioxyz/AVHappenings",
+    sourceLink: "https://github.com/darzyx/AVHappenings",
     image: require("./Media/Images/avhappenings.png")
   },
   {
@@ -26,7 +26,7 @@ export const ProjectsData = [
       }
     ],
     demoLink: "https://www.darzyx.com/",
-    sourceLink: "https://github.com/josedarioxyz/Portfolio",
+    sourceLink: "https://github.com/darzyx/Portfolio",
     image: require("./Media/Images/background-xs.jpg")
   },
   {
@@ -38,8 +38,8 @@ export const ProjectsData = [
       { name: "Redux", link: "https://redux.js.org/" },
       { name: "Bootstrap", link: "https://getbootstrap.com/" }
     ],
-    demoLink: "https://josedarioxyz.github.io/near-earth-objects/",
-    sourceLink: "https://github.com/josedarioxyz/near-earth-objects",
+    demoLink: "https://darzyx.github.io/near-earth-objects/",
+    sourceLink: "https://github.com/darzyx/near-earth-objects",
     image: require("./Media/Images/nearearthobjects.png")
   },
   {
@@ -50,8 +50,8 @@ export const ProjectsData = [
       { name: "React", link: "https://reactjs.org/" },
       { name: "Styled Components", link: "https://www.styled-components.com/" }
     ],
-    demoLink: "https://josedarioxyz.github.io/faux-blockchain-services/",
-    sourceLink: "https://github.com/josedarioxyz/faux-blockchain-services",
+    demoLink: "https://darzyx.github.io/faux-blockchain-services/",
+    sourceLink: "https://github.com/darzyx/faux-blockchain-services",
     image: require("./Media/Images/fauxblockchain.png")
   },
   {
@@ -67,7 +67,7 @@ export const ProjectsData = [
       { name: "Tiled", link: "http://www.mapeditor.org/" }
     ],
     demoLink: "http://game.darzyx.com/",
-    sourceLink: "https://github.com/josedarioxyz/HiTechLowlife",
+    sourceLink: "https://github.com/darzyx/HiTechLowlife",
     image: require("./Media/Images/hitechlowlife.png")
   },
   {
@@ -81,7 +81,7 @@ export const ProjectsData = [
       { name: "Semantic UI", link: "https://semantic-ui.com/" }
     ],
     demoLink: "https://rcprecisiongrinding.com/",
-    sourceLink: "https://github.com/josedarioxyz/rc-precision-grinding",
+    sourceLink: "https://github.com/darzyx/rc-precision-grinding",
     image: require("./Media/Images/rcprecisiongrinding.png")
   },
   {
@@ -92,7 +92,7 @@ export const ProjectsData = [
       { name: "Mathematica", link: "https://www.wolfram.com/mathematica/" }
     ],
     demoLink: "",
-    sourceLink: "https://github.com/josedarioxyz/Mathematica",
+    sourceLink: "https://github.com/darzyx/Mathematica",
     image: require("./Media/Images/mathematica.png")
   },
   {
@@ -101,7 +101,7 @@ export const ProjectsData = [
       "Original and creative animations made using Python Mode for the Processing language/IDE.",
     tools: [{ name: "Processing", link: "https://processing.org/" }],
     demoLink: "http://processing.darzyx.com/",
-    sourceLink: "https://github.com/josedarioxyz/Processing",
+    sourceLink: "https://github.com/darzyx/Processing",
     image: require("./Media/Images/processing.png")
   },
   {
