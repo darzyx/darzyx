@@ -61,11 +61,7 @@ const Skills = () => (
         </div>
       </div>
       <div className="download-container">
-        <a
-          className="download-link"
-          href={resume}
-          download="Jose-Dario-Sanchez-(resume).pdf"
-        >
+        <a className="download-link">
           <button className="download-button">Download Resume</button>
         </a>
       </div>
