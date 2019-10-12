@@ -1,18 +1,16 @@
-import React from 'react'
-import LazyLoad from 'react-lazyload'
+import React from "react";
 
 const About = () => (
-  <section className='about'>
-    <h2 className='heading'>
-      About<LazyLoad height={15}><hr className='divider' /></LazyLoad>
+  <section className="about">
+    <h2 className="heading">
+      About
+      <hr className="divider" />
     </h2>
-    <div className='content'>
-      <div className='portrait-container'>
-        <LazyLoad height={150}>
-          <div className='portrait' />
-        </LazyLoad>
+    <div className="content">
+      <div className="portrait-container">
+        <div className="portrait" />
       </div>
-      <div className='bio'>
+      <div className="bio">
         <p>
           Hi! I am a passionate frontend developer and recent university
           graduate based in California. I take pride in the fact that I enjoy
@@ -21,13 +19,11 @@ const About = () => (
           things that equip me towards that end.
         </p>
         <br />
-        <p>
-          I also love hiking, animals, chess, and Jiu-Jitsu.
-        </p>
+        <p>I also love hiking, animals, chess, and Jiu-Jitsu.</p>
       </div>
     </div>
-    <div className='triangle'></div>
+    <div className="triangle"></div>
   </section>
-)
+);
 
-export default About
+export default About;

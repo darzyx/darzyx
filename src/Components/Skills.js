@@ -1,5 +1,4 @@
 import React from "react";
-import LazyLoad from "react-lazyload";
 
 const resume = require("../Media/resume.pdf");
 
@@ -7,24 +6,18 @@ const Skills = () => (
   <section className="skills">
     <h2 className="heading">
       Skills
-      <LazyLoad height={15}>
-        <hr className="divider" />
-      </LazyLoad>
+      <hr className="divider" />
     </h2>
     <div className="content">
       <div className="langs">
         <div className="left">
-          <LazyLoad height={100}>
-            <span className="html-icon" />
-          </LazyLoad>
+          <span className="html-icon" />
           <h5>HTML5</h5>
           <h6>Accessibility</h6>
           <h6>XHTML</h6>
         </div>
         <div className="middle">
-          <LazyLoad height={100}>
-            <span className="js-icon" />
-          </LazyLoad>
+          <span className="js-icon" />
           <h5>JavaScript</h5>
           <h6>ES6</h6>
           <h6>React / JSX</h6>
@@ -32,9 +25,7 @@ const Skills = () => (
           <h6>Phaser</h6>
         </div>
         <div className="right">
-          <LazyLoad height={100}>
-            <span className="css-icon" />
-          </LazyLoad>
+          <span className="css-icon" />
           <h5>CSS3</h5>
           <h6>SASS / SCSS</h6>
           <h6>Semantic UI</h6>
@@ -43,9 +34,7 @@ const Skills = () => (
       </div>
       <div className="other">
         <div className="tools">
-          <LazyLoad height={100}>
-            <span className="tools-icon" />
-          </LazyLoad>
+          <span className="tools-icon" />
           <h5>Tools</h5>
           <h6>Photoshop</h6>
           <h6>Terminal</h6>
@@ -55,9 +44,7 @@ const Skills = () => (
           <h6>Jekyll</h6>
         </div>
         <div className="misc">
-          <LazyLoad height={100}>
-            <span className="puzzle-icon" />
-          </LazyLoad>
+          <span className="puzzle-icon" />
           <h5>Misc</h5>
           <h6>Responsive Design</h6>
           <h6>Progressive Web Apps</h6>
@@ -65,9 +52,7 @@ const Skills = () => (
           <h6>Git</h6>
         </div>
         <div className="academic">
-          <LazyLoad height={100}>
-            <span className="academic-icon" />
-          </LazyLoad>
+          <span className="academic-icon" />
           <h5>University Education</h5>
           <h6>Python</h6>
           <h6>C / C++</h6>
