@@ -1,7 +1,5 @@
 import React from "react";
 
-const resume = require("../Media/resume.pdf");
-
 const Skills = () => (
   <section className="skills">
     <h2 className="heading">
