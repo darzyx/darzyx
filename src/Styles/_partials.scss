@@ -1,0 +1,46 @@
+%flex-column { display: flex; flex-direction: column; }
+
+%center-content { @extend %flex-column; align-items: center; }
+
+%middle-content { @extend %flex-column; justify-content: center; }
+
+%center-middle-content {
+  @extend %flex-column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+%background-grad {
+  background: linear-gradient(270deg, #3294bd, #706cf5);
+  background-size: 150% 150%;
+
+  -webkit-animation: AnimationName 4s ease infinite;
+  -moz-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+}
+
+%border-grad {
+  border-image: #3294BD; /* For browsers that do not support gradients */
+  border-image: -webkit-linear-gradient(left, #3294BD , #706CF5); /* For Safari 5.1 to 6.0 */
+  border-image: -o-linear-gradient(right, #3294BD, #706CF5); /* For Opera 11.1 to 12.0 */
+  border-image: -moz-linear-gradient(right, #3294BD, #706CF5); /* For Firefox 3.6 to 15 */
+  border-image: linear-gradient(to right, #3294BD , #706CF5); /* Standard syntax (must be last) */
+  border-image-slice: 1;
+}

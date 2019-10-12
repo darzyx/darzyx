@@ -1,0 +1,107 @@
+.skills {
+  background-color: $skills-background-color;
+
+  padding-bottom: 20vh;
+  
+  .heading {
+    @include section-heading($skills-primary-color);
+    .divider { @include heading-divider($skills-accent-color); }
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+
+    padding: 5vh 5vw 5vh 5vw;
+
+    .langs, .tools, .misc, .academic {
+      padding-bottom: 5vh;
+
+      h5, p { color: $skills-primary-color; }
+      h6 { color: $skills-secondary-color; }
+    }
+
+    .langs {
+      width: 100%;
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      .left, .middle, .right {
+        @extend %center-content;
+
+        .html-icon, .js-icon, .css-icon, .puzzle-icon {
+          width: calc(5rem + 2vw);
+          height: calc(5rem + 2vw);
+
+          margin-bottom: 10px;
+
+          animation: fadeIn;
+          animation-duration: 1s;
+        }
+
+        .html-icon { background-image: url('../Media/SVG/html5.svg'); }
+        .js-icon { background-image: url('../Media/SVG/javascript.svg'); }
+        .css-icon { background-image: url('../Media/SVG/css3.svg'); }
+      }
+    }
+
+    .other {
+      display: grid;
+
+      @media (max-width: 599px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
+      @media (min-width: 600px) { grid-template-columns: repeat(3, 1fr); }
+
+      .tools {  @media (max-width: 599px) { grid-row: 1; } grid-column: 1; }
+      .misc { @media (max-width: 599px) { grid-row: 1; } grid-column: 2; }
+      .academic {
+        @media (max-width: 599px) { grid-row: 2; grid-column: span 2; }
+        @media (min-width: 600px) { grid-column: 3; }
+      }
+
+      .tools, .misc, .academic {
+        @extend %center-content;
+        text-align: center;
+
+        .tools-icon, .puzzle-icon, .academic-icon {
+          width: calc(5rem + 2vw);
+          height: calc(5rem + 2vw);
+
+          margin-bottom: 10px;
+
+          animation: fadeIn;
+          animation-duration: 1s;
+
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+
+        .puzzle-icon { background-image: url('../Media/SVG/puzzle.svg'); }
+        .tools-icon { background-image: url('../Media/SVG/tools.svg'); }
+        .academic-icon { background-image: url('../Media/SVG/academic.svg'); }
+      }
+    }
+
+    .download-container {
+      @extend %center-middle-content;
+      width: 100%;
+
+      a {
+        .download-button {
+          @extend %background-grad;
+          @extend %border-grad;
+
+          width: 250px;
+
+          color: $skills-primary-color;
+        }
+      }
+    }
+  }
+
+  .triangle { @include triangle($skills-triangle-background-color); }
+}

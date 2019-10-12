@@ -1,0 +1,88 @@
+.projects {
+  background-color: $projects-background-color;
+
+  padding-bottom: 20vh;
+
+  .heading {
+    @include section-heading($projects-primary-color);
+    .divider { @include heading-divider($projects-accent-color); }
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 50px;
+    padding: 5vh 5vw 5vh 5vw;
+
+    article {
+      @media (min-width: 600px) { &:nth-child(1) { grid-column: span 2; } }
+
+      position: relative;
+
+      animation: fadeIn;
+      animation-duration: 1s;
+      box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+      background-color: $projects-article-background-color;
+
+      img { width: 100%; }
+    }
+
+    .text {
+      padding: 10px 20px 100px 20px;
+
+      .name { color: $projects-primary-color; }
+
+      .description { color: $projects-secondary-color; }
+
+      .tools-title, .tools, .tool {
+        color: $projects-accent-color;
+        font-style: italic;
+      }
+
+      .tool {
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+
+        &:hover { color: #706CF5; }
+      }
+
+      .buttons {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+
+        padding: 10px;
+
+        button {
+          border: 1px solid $contact-accent-color;
+          color: $contact-primary-color;
+        }
+
+        button[name=demo] {
+          background-color: $contact-accent-color;
+        }
+
+        button[name=source] {
+          background-color: $contact-background-color;
+
+          -webkit-transition: background-color 250ms linear;
+          -moz-transition: background-color 250ms linear;
+          -o-transition: background-color 250ms linear;
+          -ms-transition: background-color 250ms linear;
+          transition: background-color 250ms linear;
+
+          &:hover { background-color: $contact-accent-color; }
+        }
+      }
+    }
+  }
+  .triangle { @include triangle($projects-triangle-background-color); }
+}

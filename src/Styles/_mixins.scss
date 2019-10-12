@@ -1,0 +1,48 @@
+@mixin triangle($color) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 0; 
+  height: 0; 
+
+  border-left: 100vw solid transparent;
+  border-right: 0 solid transparent;
+  
+  border-bottom: 20vh solid $color;
+}
+
+@mixin section-heading($color) {
+  @extend %center-middle-content;
+
+  width: 100vw;
+
+  padding-top: 10vh;
+
+  color: $color;
+}
+
+@mixin heading-divider($color) {
+  @keyframes appear { from { width: 0%; } to { width: 20%; } }
+  animation: appear;
+  animation-duration: 1s;
+  
+  width: 20%;
+
+  border-color: $about-accent-color;
+}
+
+@mixin hexicon($url) {
+  height: 9.8vw;
+  max-height: 9.8vh;
+  width: 8.5vw;
+  max-width: 8.5vh;
+
+  display: block;
+
+  background: url($url);
+  background-size: cover;
+
+  animation: fadeIn;
+  animation-duration: 1s;
+}

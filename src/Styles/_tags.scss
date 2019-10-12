@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+
+html, body, #root, .app { width: 100vw; min-height: 100vh; }
+
+html {
+  font-size: 16px;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  @media (max-width: 1000px) { font-size: calc(12px + 0.4vw); }
+}
+
+body { margin: 0; padding: 0; font-family: $content-font; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-family: $heading-font; }
+
+@for $i from 1 through 6 {
+  h#{$i} { font-size: calc(2.5rem - (0.25 * #{$i}rem)); }
+}
+
+p { margin: 0; padding: 0; font-size: 1rem; }
+
+p, a, input, button, li, textarea {
+  font-size: 1rem; font-family: $content-font; line-height: 1.5rem;
+}
+
+button { width: 100%; padding: 5px; cursor: pointer; }
+
+a { text-decoration: none; }
+
+section { position: relative; width: 100vw; min-height: 100vh; }
