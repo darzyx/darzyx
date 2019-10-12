@@ -24,7 +24,7 @@ const Contact = () => (
           className="message"
           name="Message"
           placeholder="Message"
-          required="true"
+          required
           rows="8"
           type="text"
         />
