@@ -100,7 +100,7 @@ const Contact = () => (
             by Bryan Goff
           </p>
           <p className="footnote">
-            Website: Copyright © 2018 Jose Dario Sanchez. All rights reserved.
+            Website: Copyright © 2018 Dario Sanchez. All rights reserved.
           </p>
         </footer>
       </div>

@@ -12,11 +12,12 @@ const About = () => (
       </div>
       <div className="bio">
         <p>
-          Hi! I am a passionate frontend developer and recent university
-          graduate based in California. I take pride in the fact that I enjoy
-          challenges involving both logic and aesthetics. Everything I create
-          should both be functional and appealing, and I love learning new
-          things that equip me towards that end.
+          Hey! My name is Dario, and I am a front-end/UI developer and recent
+          university graduate (UCLA Physics '17) living in Pittsburgh, PA. I
+          enjoy challenges that involve logical reasoning and aesthetics.
+          Everything I create should both be highly usable and visually
+          appealing, and I love learning new things that equip me towards that
+          end.
         </p>
         <br />
         <p>I also love hiking, animals, chess, and Jiu-Jitsu.</p>

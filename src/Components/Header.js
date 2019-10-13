@@ -6,7 +6,7 @@ const Header = () => (
       <div className="nav-left">
         <a className="link" onClick={() => window.location.reload()}>
           <span className="bra">〈</span>
-          J.D.S.
+          darzyx
           <span className="ket">〉</span>
         </a>
       </div>
@@ -38,8 +38,8 @@ const Header = () => (
       </div>
     </nav>
     <div className="content">
-      <h1 className="title">Jose Dario Sanchez</h1>
-      <h3 className="subtitle">Frontend Developer</h3>
+      <h1 className="title">Dario Sanchez</h1>
+      <h3 className="subtitle">Front-end/UI Developer</h3>
     </div>
     <div className="triangle"></div>
   </section>
