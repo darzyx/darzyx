@@ -16,11 +16,11 @@ const About = () => (
           university graduate (UCLA Physics '17) living in Pittsburgh, PA. I
           enjoy challenges that involve logical reasoning and aesthetics.
           Everything I create should both be highly usable and visually
-          appealing, and I love learning new things that equip me towards that
-          end.
+          appealing, and I have fun learning new things that equip me towards
+          that end.
         </p>
         <br />
-        <p>I also love hiking, animals, chess, and Jiu-Jitsu.</p>
+        <p>I do improv comedy and Brazilian jiu-jitsu.</p>
       </div>
     </div>
     <div className="triangle"></div>
