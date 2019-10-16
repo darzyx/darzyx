@@ -100,7 +100,7 @@ export const ProjectsData = [
     description:
       "Original and creative animations made using Python Mode for the Processing language/IDE.",
     tools: [{ name: "Processing", link: "https://processing.org/" }],
-    demoLink: "http://processing.darzyx.com/",
+    demoLink: "https://darzyx.github.io/Processing/",
     sourceLink: "https://github.com/darzyx/Processing",
     image: require("./Media/Images/processing.png")
   },
