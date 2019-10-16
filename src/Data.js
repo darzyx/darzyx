@@ -26,7 +26,7 @@ export const ProjectsData = [
       }
     ],
     demoLink: "https://www.darzyx.com/",
-    sourceLink: "https://github.com/darzyx/Portfolio",
+    sourceLink: "https://github.com/darzyx/darzyx",
     image: require("./Media/Images/background-xs.jpg")
   },
   {
