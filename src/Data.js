@@ -80,7 +80,7 @@ export const ProjectsData = [
       { name: "CSS3" },
       { name: "Semantic UI", link: "https://semantic-ui.com/" }
     ],
-    demoLink: "https://rcprecisiongrinding.com/",
+    demoLink: "https://darzyx.github.io/rc-precision-grinding/",
     sourceLink: "https://github.com/darzyx/rc-precision-grinding",
     image: require("./Media/Images/rcprecisiongrinding.png")
   },
