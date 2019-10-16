@@ -10,7 +10,7 @@ export const ProjectsData = [
       { name: "React Router", link: "https://reacttraining.com/react-router/" }
     ],
     demoLink: "https://www.avhappenings.com/",
-    sourceLink: "https://github.com/darzyx/AVHappenings",
+    sourceLink: "https://github.com/darzyx/av-happenings",
     image: require("./Media/Images/avhappenings.png")
   },
   {
