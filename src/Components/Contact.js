@@ -1,10 +1,13 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 
 const Contact = () => (
   <section className="contact" id="contact">
     <h2 id="contact-heading" className="heading">
       Contact
-      <hr className="divider" />
+      <LazyLoad height={15} once>
+        <hr className="divider" />
+      </LazyLoad>
     </h2>
     <div className="content">
       <form

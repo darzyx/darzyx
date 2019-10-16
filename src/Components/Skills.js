@@ -1,10 +1,13 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 
 const Skills = () => (
   <section className="skills">
     <h2 className="heading">
       Skills
-      <hr className="divider" />
+      <LazyLoad height={15} once>
+        <hr className="divider" />
+      </LazyLoad>
     </h2>
     <div className="content">
       <div className="langs">

@@ -1,14 +1,19 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 
 const About = () => (
   <section className="about">
     <h2 className="heading">
       About
-      <hr className="divider" />
+      <LazyLoad height={15} once>
+        <hr className="divider" />
+      </LazyLoad>
     </h2>
     <div className="content">
       <div className="portrait-container">
-        <div className="portrait" />
+        <LazyLoad height={150} once>
+          <div className="portrait" />
+        </LazyLoad>
       </div>
       <div className="bio">
         <p>

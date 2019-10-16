@@ -1,16 +1,21 @@
 import React from "react";
 import { ProjectsData } from "../Data";
+import LazyLoad from "react-lazyload";
 
 const Projects = () => (
   <section className="projects" id="projects">
     <h2 id="projects-heading" className="heading">
       Projects
-      <hr className="divider" />
+      <LazyLoad height={15} once>
+        <hr className="divider" />
+      </LazyLoad>
     </h2>
     <main className="grid">
       {ProjectsData.map((project, key) => (
         <article key={key}>
-          <img src={project.image} alt={project.name + " image"} />
+          <LazyLoad height={200} once>
+            <img src={project.image} alt={project.name + " image"} />{" "}
+          </LazyLoad>
           <div className="text">
             <h4 className="name">{project.name}</h4>
             <p className="description">{project.description}</p>
