@@ -68,7 +68,8 @@
 
 html, body, #root, .app {
   width: 100vw;
-  min-height: 100vh; }
+  min-height: 100vh;
+  background-color: #242F3B; }
 
 html {
   font-size: 16px;
