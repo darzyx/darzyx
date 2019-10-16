@@ -66,7 +66,7 @@ export const ProjectsData = [
       },
       { name: "Tiled", link: "http://www.mapeditor.org/" }
     ],
-    demoLink: "http://game.darzyx.com/",
+    demoLink: "https://darzyx.github.io/HiTechLowlife/",
     sourceLink: "https://github.com/darzyx/HiTechLowlife",
     image: require("./Media/Images/hitechlowlife.png")
   },
