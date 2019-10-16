@@ -45,7 +45,7 @@ export const ProjectsData = [
   {
     name: "Faux Blockchain Services",
     description:
-      "A website design/mockup for an imaginary blockchain services company.",
+      "A website design/mockup for an imaginary blockchain services company. Features original design and landing page animation.",
     tools: [
       { name: "React", link: "https://reactjs.org/" },
       { name: "Styled Components", link: "https://www.styled-components.com/" }
