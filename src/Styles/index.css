@@ -219,6 +219,7 @@ section {
       cursor: pointer; }
       .header .navbar a .bra, .header .navbar a .ket, .header .navbar .link .bra, .header .navbar .link .ket {
         position: absolute;
+        top: 0;
         opacity: 0;
         transition: 0.25s;
         color: #39ADEB;
