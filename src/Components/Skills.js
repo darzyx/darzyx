@@ -1,6 +1,8 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
 
+const resume = require("../Media/resume.pdf");
+
 const Skills = () => (
   <section className="skills">
     <h2 className="heading">
@@ -15,6 +17,7 @@ const Skills = () => (
           <span className="html-icon" />
           <h5>HTML5</h5>
           <h6>Accessibility</h6>
+          <h6>Usability</h6>
         </div>
         <div className="middle">
           <span className="js-icon" />
@@ -57,7 +60,11 @@ const Skills = () => (
         </div>
       </div>
       <div className="download-container">
-        <a className="download-link">
+        <a
+          className="download-link"
+          href={resume}
+          download="Dario-Sanchez-(resume).pdf"
+        >
           <button className="download-button">Download Resume</button>
         </a>
       </div>
