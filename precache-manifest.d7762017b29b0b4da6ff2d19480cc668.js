@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1c3c07ae63e353cea358d2c702edc08",
+    "revision": "425593a5e4876cfddda9fbebdc9a865c",
     "url": "/index.html"
   },
   {
-    "revision": "94cb05df8d189d96bd74",
+    "revision": "87f6a7b34b3b25552cc3",
     "url": "/static/css/main.a00e1c90.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c1f9112e.chunk.js"
   },
   {
-    "revision": "94cb05df8d189d96bd74",
-    "url": "/static/js/main.e38e3eff.chunk.js"
+    "revision": "87f6a7b34b3b25552cc3",
+    "url": "/static/js/main.d76c2d85.chunk.js"
   },
   {
     "revision": "0d9cd95bf8098d87ef0c",
@@ -90,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ba164d07b84e3053214e6def980d0af1",
     "url": "/static/media/rcprecisiongrinding.ba164d07.png"
+  },
+  {
+    "revision": "4db6813cef785666388dbe82cfff2c4d",
+    "url": "/static/media/resume.4db6813c.pdf"
   },
   {
     "revision": "1cb6f636bc86faff2ec3affe723cf0e9",
