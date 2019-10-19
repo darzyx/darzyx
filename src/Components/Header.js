@@ -39,7 +39,7 @@ const Header = () => (
     </nav>
     <div className="content">
       <h1 className="title">Dario Sanchez</h1>
-      <h3 className="subtitle">Front-end/UI Developer</h3>
+      <h3 className="subtitle">Developer</h3>
     </div>
     <div className="triangle"></div>
   </section>
