@@ -46,32 +46,28 @@ const Contact = () => (
           <hr className="divider" />
         </div>
         <nav className="icons-row">
-          <div className="icon-column">
-            <a
-              aria-label="My LinkedIn"
-              className="tooltipped"
-              href="http://www.linkedin.com/in/darzyx"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
+          <div className="icon-column tooltipped">
+            <div>
+              <a
+                aria-label="My LinkedIn"
+                href="http://www.linkedin.com/in/darzyx"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="icon-linkedin"></i>
+              </a>
               <span className="tooltip">LinkedIn</span>
-              <i className="icon-linkedin"></i>
-            </a>
+            </div>
           </div>
-          <div className="icon-column">
-            <a
-              aria-label="Send Email"
-              className="tooltipped"
-              href="mailto:dario.zyx@gmail.com"
-            >
+          <div className="icon-column tooltipped">
+            <a aria-label="Send Email" href="mailto:dario.zyx@gmail.com">
               <span className="tooltip">Email</span>
               <i className="icon-email"></i>
             </a>
           </div>
-          <div className="icon-column">
+          <div className="icon-column tooltipped">
             <a
               aria-label="My GitHub"
-              className="tooltipped"
               href="http://www.github.com/darzyx"
               rel="noopener noreferrer"
               target="_blank"
@@ -80,12 +76,8 @@ const Contact = () => (
               <i className="icon-github"></i>
             </a>
           </div>
-          <div className="icon-column">
-            <a
-              aria-label="Call Me"
-              className="tooltipped"
-              href="tel:16614247600"
-            >
+          <div className="icon-column tooltipped">
+            <a aria-label="Call Me" href="tel:16614247600">
               <span className="tooltip">Call</span>
               <i className="icon-phone"></i>
             </a>

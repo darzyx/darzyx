@@ -621,7 +621,7 @@ section {
 
 .tooltipped .tooltip {
   visibility: hidden;
-  width: 100px;
+  width: 120px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -630,11 +630,10 @@ section {
   position: absolute;
   z-index: 1;
   top: 110%;
-  left: 50%;
-  margin-left: -50px; }
+  left: 8%; }
 
 .tooltipped .tooltip::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 100%;
   left: 50%;
