@@ -495,40 +495,40 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr); }
         .contact .content .external .icons-row .icon-column .icon-linkedin {
-          height: 9.8vw;
-          max-height: 9.8vh;
-          width: 8.5vw;
-          max-width: 8.5vh;
+          height: 73.5px;
+          max-height: 73.5px;
+          width: 63.75px;
+          max-width: 63.75px;
           display: block;
           background: url("../Media/Images/icon-linkedin.png");
           background-size: cover;
           animation: fadeIn;
           animation-duration: 1s; }
         .contact .content .external .icons-row .icon-column .icon-email {
-          height: 9.8vw;
-          max-height: 9.8vh;
-          width: 8.5vw;
-          max-width: 8.5vh;
+          height: 73.5px;
+          max-height: 73.5px;
+          width: 63.75px;
+          max-width: 63.75px;
           display: block;
           background: url("../Media/Images/icon-email.png");
           background-size: cover;
           animation: fadeIn;
           animation-duration: 1s; }
         .contact .content .external .icons-row .icon-column .icon-github {
-          height: 9.8vw;
-          max-height: 9.8vh;
-          width: 8.5vw;
-          max-width: 8.5vh;
+          height: 73.5px;
+          max-height: 73.5px;
+          width: 63.75px;
+          max-width: 63.75px;
           display: block;
           background: url("../Media/Images/icon-github.png");
           background-size: cover;
           animation: fadeIn;
           animation-duration: 1s; }
         .contact .content .external .icons-row .icon-column .icon-phone {
-          height: 9.8vw;
-          max-height: 9.8vh;
-          width: 8.5vw;
-          max-width: 8.5vh;
+          height: 73.5px;
+          max-height: 73.5px;
+          width: 63.75px;
+          max-width: 63.75px;
           display: block;
           background: url("../Media/Images/icon-phone.png");
           background-size: cover;
