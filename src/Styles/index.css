@@ -163,6 +163,9 @@ section {
 .tooltipped:hover .tooltip {
   visibility: visible; }
 
+.lazyload-wrapper {
+  width: 100%; }
+
 .header {
   animation: fadeIn;
   animation-duration: 1s; }
