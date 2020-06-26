@@ -33,6 +33,10 @@
   visibility: visible;
 }
 
-.lazyload-wrapper { width:100%; }
+.lazyload-wrapper {
+  @extend %center-middle-content;
+  width: 100%;
+  height: 100%;
+}
 
 * { box-sizing: border-box; max-width: 100% !important; }
