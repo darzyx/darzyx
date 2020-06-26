@@ -629,8 +629,7 @@ section {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  top: 110%;
-  left: 8%; }
+  top: 110%; }
 
 .tooltipped .tooltip::after {
   content: "";

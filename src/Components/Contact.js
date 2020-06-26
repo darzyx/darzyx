@@ -47,23 +47,21 @@ const Contact = () => (
         </div>
         <nav className="icons-row">
           <div className="icon-column tooltipped">
-            <div>
-              <a
-                aria-label="My LinkedIn"
-                href="http://www.linkedin.com/in/darzyx"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <i className="icon-linkedin"></i>
-              </a>
-              <span className="tooltip">LinkedIn</span>
-            </div>
+            <a
+              aria-label="My LinkedIn"
+              href="http://www.linkedin.com/in/darzyx"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="icon-linkedin"></i>
+            </a>
+            <span className="tooltip">LinkedIn</span>
           </div>
           <div className="icon-column tooltipped">
             <a aria-label="Send Email" href="mailto:dario.zyx@gmail.com">
-              <span className="tooltip">Email</span>
               <i className="icon-email"></i>
             </a>
+            <span className="tooltip">Email</span>
           </div>
           <div className="icon-column tooltipped">
             <a
@@ -72,15 +70,15 @@ const Contact = () => (
               rel="noopener noreferrer"
               target="_blank"
             >
-              <span className="tooltip">GitHub</span>
               <i className="icon-github"></i>
             </a>
+            <span className="tooltip">GitHub</span>
           </div>
           <div className="icon-column tooltipped">
             <a aria-label="Call Me" href="tel:16614247600">
-              <span className="tooltip">Call</span>
               <i className="icon-phone"></i>
             </a>
+            <span className="tooltip">Call</span>
           </div>
         </nav>
         <div className="divider-row">
