@@ -10,11 +10,11 @@ const About = () => (
       </LazyLoad>
     </h2>
     <div className="content">
-      <div className="portrait-container">
-        <LazyLoad height={150} once>
+      <LazyLoad once>
+        <div className="portrait-container">
           <div className="portrait" />
-        </LazyLoad>
-      </div>
+        </div>
+      </LazyLoad>
       <div className="bio">
         <p>
           Hey! My name is Dario, and I am a self-taught developer and recent
