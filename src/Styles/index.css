@@ -439,7 +439,7 @@
   .contact .content {
     display: grid;
     grid-gap: 30px;
-    padding: 5vh 5vw 15vh 5vw; }
+    padding: 5vh 5vw 10vh 5vw; }
     @media (max-width: 749px) {
       .contact .content {
         grid-template-rows: 1fr 350px; } }
