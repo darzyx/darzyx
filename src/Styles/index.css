@@ -501,40 +501,32 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr); }
         .contact .content .external .icons-row .icon-column .icon-linkedin {
-          height: 73.5px;
-          max-height: 73.5px;
-          width: 63.75px;
-          max-width: 63.75px;
+          height: 49.5px;
+          width: 43px;
           display: block;
           background: url("../Media/Images/icon-linkedin.png");
           background-size: cover;
           animation: fadeIn;
           animation-duration: 1s; }
         .contact .content .external .icons-row .icon-column .icon-email {
-          height: 73.5px;
-          max-height: 73.5px;
-          width: 63.75px;
-          max-width: 63.75px;
+          height: 49.5px;
+          width: 43px;
           display: block;
           background: url("../Media/Images/icon-email.png");
           background-size: cover;
           animation: fadeIn;
           animation-duration: 1s; }
         .contact .content .external .icons-row .icon-column .icon-github {
-          height: 73.5px;
-          max-height: 73.5px;
-          width: 63.75px;
-          max-width: 63.75px;
+          height: 49.5px;
+          width: 43px;
           display: block;
           background: url("../Media/Images/icon-github.png");
           background-size: cover;
           animation: fadeIn;
           animation-duration: 1s; }
         .contact .content .external .icons-row .icon-column .icon-phone {
-          height: 73.5px;
-          max-height: 73.5px;
-          width: 63.75px;
-          max-width: 63.75px;
+          height: 49.5px;
+          width: 43px;
           display: block;
           background: url("../Media/Images/icon-phone.png");
           background-size: cover;
@@ -633,7 +625,7 @@ section {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  top: 110%; }
+  top: 125%; }
 
 .tooltipped .tooltip::after {
   content: "";
