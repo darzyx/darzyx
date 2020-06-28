@@ -64,6 +64,7 @@
   border-image-slice: 1; }
 
 .header {
+  min-height: 100vh;
   animation: fadeIn;
   animation-duration: 1s; }
   @media only screen and (max-width: 349px) {
@@ -159,14 +160,14 @@
     height: 0;
     border-left: 100vw solid transparent;
     border-right: 0 solid transparent;
-    border-bottom: 20vh solid #202A36; }
+    border-bottom: 15vh solid #202A36; }
 
 .skills {
   background-color: #242F3B;
   padding-bottom: 20vh; }
   .skills .heading {
     width: 100vw;
-    padding-top: 10vh;
+    padding-top: 3vh;
     color: #FFFFFF; }
     .skills .heading .divider {
       animation: appear;
@@ -261,14 +262,14 @@
     height: 0;
     border-left: 100vw solid transparent;
     border-right: 0 solid transparent;
-    border-bottom: 20vh solid #202A36; }
+    border-bottom: 15vh solid #202A36; }
 
 .projects {
   background-color: #202A36;
   padding-bottom: 20vh; }
   .projects .heading {
     width: 100vw;
-    padding-top: 10vh;
+    padding-top: 3vh;
     color: #FFFFFF; }
     .projects .heading .divider {
       animation: appear;
@@ -344,14 +345,14 @@
     height: 0;
     border-left: 100vw solid transparent;
     border-right: 0 solid transparent;
-    border-bottom: 20vh solid #242F3B; }
+    border-bottom: 15vh solid #242F3B; }
 
 .about {
   background-color: #202A36;
   padding-bottom: 20vh; }
   .about .heading {
     width: 100vw;
-    padding-top: 10vh;
+    padding-top: 3vh;
     color: #FFFFFF; }
     .about .heading .divider {
       animation: appear;
@@ -416,13 +417,13 @@
     height: 0;
     border-left: 100vw solid transparent;
     border-right: 0 solid transparent;
-    border-bottom: 20vh solid #242F3B; }
+    border-bottom: 15vh solid #242F3B; }
 
 .contact {
   background-color: #242F3B; }
   .contact .heading {
     width: 100vw;
-    padding-top: 10vh;
+    padding-top: 3vh;
     color: #FFFFFF; }
     .contact .heading .divider {
       animation: appear;
@@ -438,7 +439,7 @@
   .contact .content {
     display: grid;
     grid-gap: 30px;
-    padding: 5vh 5vw 5vh 5vw; }
+    padding: 5vh 5vw 15vh 5vw; }
     @media (max-width: 749px) {
       .contact .content {
         grid-template-rows: 1fr 350px; } }
@@ -616,8 +617,7 @@ a {
 
 section {
   position: relative;
-  width: 100vw;
-  min-height: 100vh; }
+  width: 100vw; }
 
 .tooltipped {
   position: relative;

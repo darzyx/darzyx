@@ -9,7 +9,7 @@
   border-left: 100vw solid transparent;
   border-right: 0 solid transparent;
 
-  border-bottom: 20vh solid $color;
+  border-bottom: 15vh solid $color;
 }
 
 @mixin section-heading($color) {
@@ -17,7 +17,7 @@
 
   width: 100vw;
 
-  padding-top: 10vh;
+  padding-top: 3vh;
 
   color: $color;
 }
