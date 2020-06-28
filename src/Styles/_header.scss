@@ -55,16 +55,18 @@
     .nav-left { text-align: left; }
     .nav-right { text-align: right; }
 
-    a, .link {
+    button {
       position: relative;
-
+      width: auto;
       color: $header-primary-color;
-
+      background-color: transparent;
       cursor: pointer;
+      border: none;
+      outline: none;
 
       .bra, .ket {
         position: absolute;
-        top: 0;
+        top: 5px;
 
         opacity: 0;
         transition: 0.25s;

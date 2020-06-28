@@ -4,14 +4,14 @@ const Header = () => (
   <section className="header" id="header">
     <nav className="navbar">
       <div className="nav-left">
-        <a className="link" onClick={() => window.location.reload()}>
+        <button onClick={() => window.location.reload()}>
           <span className="bra">〈</span>
           darzyx
           <span className="ket">〉</span>
-        </a>
+        </button>
       </div>
       <div className="nav-right">
-        <a
+        <button
           onClick={() =>
             document
               .querySelector("#projects-heading")
@@ -21,10 +21,10 @@ const Header = () => (
           <span className="bra">〈</span>
           projects
           <span className="ket">〉</span>
-        </a>
+        </button>
       </div>
       <div className="nav-right">
-        <a
+        <button
           onClick={() =>
             document
               .querySelector("#contact-heading")
@@ -34,7 +34,7 @@ const Header = () => (
           <span className="bra">〈</span>
           contact
           <span className="ket">〉</span>
-        </a>
+        </button>
       </div>
     </nav>
     <div className="content">

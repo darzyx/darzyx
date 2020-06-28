@@ -113,26 +113,30 @@
       text-align: left; }
     .header .navbar .nav-right {
       text-align: right; }
-    .header .navbar a, .header .navbar .link {
+    .header .navbar button {
       position: relative;
+      width: auto;
       color: #FFFFFF;
-      cursor: pointer; }
-      .header .navbar a .bra, .header .navbar a .ket, .header .navbar .link .bra, .header .navbar .link .ket {
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+      outline: none; }
+      .header .navbar button .bra, .header .navbar button .ket {
         position: absolute;
-        top: 0;
+        top: 5px;
         opacity: 0;
         transition: 0.25s;
         color: #39ADEB;
         font-size: 2rem;
         pointer-events: none; }
-      .header .navbar a .bra, .header .navbar .link .bra {
+      .header .navbar button .bra {
         left: -1rem; }
-      .header .navbar a .ket, .header .navbar .link .ket {
+      .header .navbar button .ket {
         right: -1rem; }
-      .header .navbar a:hover .bra, .header .navbar .link:hover .bra {
+      .header .navbar button:hover .bra {
         left: -1.8rem;
         opacity: 1; }
-      .header .navbar a:hover .ket, .header .navbar .link:hover .ket {
+      .header .navbar button:hover .ket {
         right: -1.8rem;
         opacity: 1; }
   .header .content {
