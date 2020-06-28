@@ -172,14 +172,14 @@
     .skills .heading .divider {
       animation: appear;
       animation-duration: 1s;
-      width: 20%;
+      width: 25%;
       border-color: #39ADEB; }
 
 @keyframes appear {
   from {
     width: 0%; }
   to {
-    width: 20%; } }
+    width: 25%; } }
   .skills .content {
     width: 100%;
     height: 100%;
@@ -274,14 +274,14 @@
     .projects .heading .divider {
       animation: appear;
       animation-duration: 1s;
-      width: 20%;
+      width: 25%;
       border-color: #39ADEB; }
 
 @keyframes appear {
   from {
     width: 0%; }
   to {
-    width: 20%; } }
+    width: 25%; } }
   .projects .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -357,14 +357,14 @@
     .about .heading .divider {
       animation: appear;
       animation-duration: 1s;
-      width: 20%;
+      width: 25%;
       border-color: #39ADEB; }
 
 @keyframes appear {
   from {
     width: 0%; }
   to {
-    width: 20%; } }
+    width: 25%; } }
   .about .content {
     width: 100%;
     height: 100%;
@@ -428,14 +428,14 @@
     .contact .heading .divider {
       animation: appear;
       animation-duration: 1s;
-      width: 20%;
+      width: 25%;
       border-color: #39ADEB; }
 
 @keyframes appear {
   from {
     width: 0%; }
   to {
-    width: 20%; } }
+    width: 25%; } }
   .contact .content {
     display: grid;
     grid-gap: 30px;
