@@ -38,8 +38,8 @@ const Header = () => (
       </div>
     </nav>
     <div className="content">
-      <h1 className="title">Dario Sanchez</h1>
-      <h3 className="subtitle">Software Developer</h3>
+      <h1 className="title">Jose Dario Sanchez</h1>
+      <h3 className="subtitle">Frontend Engineer</h3>
     </div>
     <div className="triangle"></div>
   </section>
