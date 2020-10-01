@@ -49,6 +49,7 @@ const Skills = () => (
           <h5>Misc</h5>
           <h6>Responsive Design</h6>
           <h6>Basic UX/Design</h6>
+          <h6>Solidity</h6>
         </div>
         <div className="academic">
           <span className="academic-icon" />

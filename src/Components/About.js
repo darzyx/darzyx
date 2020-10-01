@@ -26,7 +26,8 @@ const About = () => (
         </p>
         <br />
         <p>
-          Outside of development, I do improv comedy and Brazilian jiu-jitsu.
+          Outside of development, I do improv comedy, practice Brazilian
+          jiu-jitsu, and read about cryptocurrencies.
         </p>
       </div>
     </div>
