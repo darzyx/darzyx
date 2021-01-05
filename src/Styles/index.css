@@ -292,12 +292,14 @@
       animation: fadeIn;
       animation-duration: 1s;
       box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-      background-color: #242F3B; }
+      background-color: #242F3B;
+      border-radius: 8px; }
       @media (min-width: 600px) {
         .projects .grid article:nth-child(1) {
           grid-column: span 2; } }
       .projects .grid article img {
-        width: 100%; }
+        width: 100%;
+        border-radius: 8px 8px 0 0; }
     .projects .grid .text {
       padding: 10px 20px 100px 20px; }
       .projects .grid .text .name {
@@ -325,6 +327,7 @@
         padding: 10px; }
         .projects .grid .text .buttons button {
           border: 1px solid #39ADEB;
+          border-radius: 8px;
           color: #FFFFFF; }
         .projects .grid .text .buttons button[name=demo] {
           background-color: #39ADEB; }
