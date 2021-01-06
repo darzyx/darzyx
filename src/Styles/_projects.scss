@@ -4,7 +4,7 @@
   padding-bottom: 20vh;
 
   .heading {
-    @include section-heading($projects-primary-color);
+    @include section-heading($light-font-color);
     .divider { @include heading-divider($projects-accent-color); }
   }
 
@@ -31,7 +31,7 @@
     .text {
       padding: 10px 20px 100px 20px;
 
-      .name { color: $projects-primary-color; }
+      .name { color: $light-font-color; }
 
       .description { color: $projects-secondary-color; }
 
@@ -62,7 +62,7 @@
         button {
           border: 1px solid $projects-accent-color;
           border-radius: 8px;
-          color: $projects-primary-color;
+          color: $light-font-color;
         }
 
         button[name=demo] {

@@ -45,7 +45,7 @@
     button {
       position: relative;
       width: auto;
-      color: $header-primary-color;
+      color: $light-font-color;
       background-color: transparent;
       cursor: pointer;
       border: none;
@@ -75,7 +75,7 @@
     @media (max-width: 549px) { text-align: center; }
     @media (min-width: 550px) { text-align: left; }
 
-    .title { color: $header-primary-color; }
+    .title { color: $light-font-color; }
     .subtitle { color: $header-secondary-color; }
   }
   .triangle { @include triangle($header-triangle-background-color); }

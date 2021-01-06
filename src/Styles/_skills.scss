@@ -4,7 +4,7 @@
   padding-bottom: 20vh;
 
   .heading {
-    @include section-heading($skills-primary-color);
+    @include section-heading($light-font-color);
     .divider { @include heading-divider($skills-accent-color); }
   }
 
@@ -17,7 +17,7 @@
     .langs, .tools, .misc, .academic {
       padding-bottom: 5vh;
 
-      h5, p { color: $skills-primary-color; }
+      h5, p { color: $light-font-color; }
       h6 { color: $skills-secondary-color; }
     }
 
@@ -96,7 +96,7 @@
 
           border: 1px solid $skills-accent-color;
           border-radius: 8px;
-          color: $skills-primary-color;
+          color: $light-font-color;
 
           background-color: $skills-accent-color;
 

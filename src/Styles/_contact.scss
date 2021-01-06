@@ -2,7 +2,7 @@
   background-color: $contact-background-color;
 
   .heading {
-    @include section-heading($contact-primary-color);
+    @include section-heading($light-font-color);
     .divider { @include heading-divider($contact-accent-color); }
   }
 
@@ -29,7 +29,7 @@
         padding: 6px 12px;
 
         background-color: $contact-form-background-color;
-        color: $contact-primary-color;
+        color: $light-font-color;
         border: none;
         border-radius: 8px;
 
@@ -63,7 +63,7 @@
         button {
           border: 1px solid $contact-accent-color;
           border-radius: 8px;
-          color: $contact-primary-color;
+          color: $light-font-color;
         }
 
         button[type=submit] {

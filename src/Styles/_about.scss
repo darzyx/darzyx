@@ -4,7 +4,7 @@
   padding-bottom: 20vh;
 
   .heading {
-    @include section-heading($about-primary-color);
+    @include section-heading($light-font-color);
     .divider { @include heading-divider($about-accent-color); }
   }
 
@@ -43,6 +43,7 @@
       @extend %center-middle-content;
 
       p {
+        color: $light-font-color;
         @media (max-width: 599px) {
           width: 100%;
           grid-row: 2;

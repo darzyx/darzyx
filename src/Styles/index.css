@@ -71,7 +71,7 @@
     .header .navbar button {
       position: relative;
       width: auto;
-      color: #FFFFFF;
+      color: #E7E5E2;
       background-color: transparent;
       cursor: pointer;
       border: none;
@@ -103,7 +103,7 @@
       .header .content {
         text-align: left; } }
     .header .content .title {
-      color: #FFFFFF; }
+      color: #E7E5E2; }
     .header .content .subtitle {
       color: #A2B5C3; }
   .header .triangle {
@@ -122,7 +122,7 @@
   .skills .heading {
     width: 100vw;
     padding-top: 3vh;
-    color: #FFFFFF; }
+    color: #E7E5E2; }
     .skills .heading .divider {
       animation: appear;
       animation-duration: 1s;
@@ -141,7 +141,7 @@
     .skills .content .langs, .skills .content .tools, .skills .content .misc, .skills .content .academic {
       padding-bottom: 5vh; }
       .skills .content .langs h5, .skills .content .langs p, .skills .content .tools h5, .skills .content .tools p, .skills .content .misc h5, .skills .content .misc p, .skills .content .academic h5, .skills .content .academic p {
-        color: #FFFFFF; }
+        color: #E7E5E2; }
       .skills .content .langs h6, .skills .content .tools h6, .skills .content .misc h6, .skills .content .academic h6 {
         color: #A2B5C3; }
     .skills .content .langs {
@@ -209,7 +209,7 @@
         width: 250px;
         border: 1px solid #39ADEB;
         border-radius: 8px;
-        color: #FFFFFF;
+        color: #E7E5E2;
         background-color: #39ADEB; }
         .skills .content .download-container a .download-button:hover {
           border-color: #706CF5; }
@@ -229,7 +229,7 @@
   .projects .heading {
     width: 100vw;
     padding-top: 3vh;
-    color: #FFFFFF; }
+    color: #E7E5E2; }
     .projects .heading .divider {
       animation: appear;
       animation-duration: 1s;
@@ -262,7 +262,7 @@
     .projects .grid .text {
       padding: 10px 20px 100px 20px; }
       .projects .grid .text .name {
-        color: #FFFFFF; }
+        color: #E7E5E2; }
       .projects .grid .text .description {
         color: #A2B5C3; }
       .projects .grid .text .tools-title, .projects .grid .text .tools, .projects .grid .text .tool {
@@ -284,7 +284,7 @@
         .projects .grid .text .buttons button {
           border: 1px solid #39ADEB;
           border-radius: 8px;
-          color: #FFFFFF; }
+          color: #E7E5E2; }
         .projects .grid .text .buttons button[name=demo] {
           background-color: #39ADEB; }
           .projects .grid .text .buttons button[name=demo]:hover {
@@ -309,7 +309,7 @@
   .about .heading {
     width: 100vw;
     padding-top: 3vh;
-    color: #FFFFFF; }
+    color: #E7E5E2; }
     .about .heading .divider {
       animation: appear;
       animation-duration: 1s;
@@ -352,18 +352,20 @@
     .about .content .bio {
       height: 100%;
       color: #A2B5C3; }
-      @media (max-width: 599px) {
-        .about .content .bio p {
-          width: 100%;
-          grid-row: 2;
-          text-align: center;
-          padding: 0 5vw 0 5vw; } }
-      @media (min-width: 600px) {
-        .about .content .bio p {
-          width: 280px;
-          grid-column: 2;
-          text-align: left;
-          padding: 0; } }
+      .about .content .bio p {
+        color: #E7E5E2; }
+        @media (max-width: 599px) {
+          .about .content .bio p {
+            width: 100%;
+            grid-row: 2;
+            text-align: center;
+            padding: 0 5vw 0 5vw; } }
+        @media (min-width: 600px) {
+          .about .content .bio p {
+            width: 280px;
+            grid-column: 2;
+            text-align: left;
+            padding: 0; } }
   .about .triangle {
     position: absolute;
     bottom: 0;
@@ -379,7 +381,7 @@
   .contact .heading {
     width: 100vw;
     padding-top: 3vh;
-    color: #FFFFFF; }
+    color: #E7E5E2; }
     .contact .heading .divider {
       animation: appear;
       animation-duration: 1s;
@@ -412,7 +414,7 @@
       margin: 0 0 25px 0;
       padding: 6px 12px;
       background-color: #181F28;
-      color: #FFFFFF;
+      color: #E7E5E2;
       border: none;
       border-radius: 8px; }
       .contact .content form .name:focus, .contact .content form .email:focus, .contact .content form .phone:focus, .contact .content form .message:focus {
@@ -441,7 +443,7 @@
       .contact .content form .buttons button {
         border: 1px solid #39ADEB;
         border-radius: 8px;
-        color: #FFFFFF; }
+        color: #E7E5E2; }
       .contact .content form .buttons button[type=submit] {
         background-color: #39ADEB; }
         .contact .content form .buttons button[type=submit]:hover {
