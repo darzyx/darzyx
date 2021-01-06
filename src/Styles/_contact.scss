@@ -68,7 +68,7 @@
 
         button[type=submit] {
           background-color: $contact-accent-color;
-          &:hover { @extend %background-grad; border-color: #706CF5; }
+          &:hover { @extend %background-grad; border-color: $purple-accent-color; }
         }
 
         button[type=reset] {

@@ -43,7 +43,7 @@
       .tool {
         transition: 0.5s;
 
-        &:hover { color: #706CF5; }
+        &:hover { color: $purple-accent-color; }
       }
 
       .buttons {
@@ -57,7 +57,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 30px;
 
-        padding: 10px;
+        padding: 15px;
 
         button {
           border: 1px solid $projects-accent-color;
@@ -68,7 +68,7 @@
         button[name=demo] {
           background-color: $projects-accent-color;
 
-          &:hover { @extend %background-grad; border-color: #706CF5; }
+          &:hover { @extend %background-grad; border-color: $purple-accent-color; }
         }
 
         button[name=source] {

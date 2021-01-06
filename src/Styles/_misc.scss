@@ -6,7 +6,7 @@
 .tooltipped .tooltip {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: $tooltip-background-color;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -24,7 +24,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
+  border-color: transparent transparent $tooltip-background-color transparent;
 }
 
 .tooltipped:hover .tooltip {

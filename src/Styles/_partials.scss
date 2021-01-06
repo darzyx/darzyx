@@ -12,7 +12,7 @@
 }
 
 %background-grad {
-  background: linear-gradient(90deg,#706cf5, #3294bd, #706cf5);
+  background: linear-gradient(90deg, $purple-accent-color, #3294bd, $purple-accent-color);
   background-size: 150% 150%;
 
   animation: GradAnimation 1s ease infinite;
