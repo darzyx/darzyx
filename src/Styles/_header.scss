@@ -54,8 +54,8 @@
     @media (max-width: 549px) { text-align: center; }
     @media (min-width: 550px) { text-align: left; }
 
-    .title { color: $light-font-color; }
-    .subtitle { color: $header-secondary-color; }
+    .title { color: $medium-font-color; }
+    .subtitle { color: $light-font-color; }
   }
   .triangle { @include triangle($header-triangle-background-color); }
 }

@@ -31,9 +31,9 @@
     .text {
       padding: 10px 20px 100px 20px;
 
-      .name { color: $light-font-color; }
+      .name { color: $medium-font-color; padding-bottom: 10px; }
 
-      .description { color: $projects-secondary-color; }
+      .description { color: $light-font-color; }
 
       .tools-title, .tools, .tool {
         color: $projects-accent-color;

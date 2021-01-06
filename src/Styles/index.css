@@ -83,9 +83,9 @@
       .header .content {
         text-align: left; } }
     .header .content .title {
-      color: #E7E5E2; }
-    .header .content .subtitle {
       color: #A2B5C3; }
+    .header .content .subtitle {
+      color: #E7E5E2; }
   .header .triangle {
     position: absolute;
     bottom: 0;
@@ -121,9 +121,9 @@
     .skills .content .langs, .skills .content .tools, .skills .content .misc, .skills .content .academic {
       padding-bottom: 5vh; }
       .skills .content .langs h5, .skills .content .langs p, .skills .content .tools h5, .skills .content .tools p, .skills .content .misc h5, .skills .content .misc p, .skills .content .academic h5, .skills .content .academic p {
-        color: #E7E5E2; }
-      .skills .content .langs h6, .skills .content .tools h6, .skills .content .misc h6, .skills .content .academic h6 {
         color: #A2B5C3; }
+      .skills .content .langs h6, .skills .content .tools h6, .skills .content .misc h6, .skills .content .academic h6 {
+        color: #E7E5E2; }
     .skills .content .langs {
       width: 100%;
       display: grid;
@@ -242,9 +242,10 @@
     .projects .grid .text {
       padding: 10px 20px 100px 20px; }
       .projects .grid .text .name {
-        color: #E7E5E2; }
+        color: #A2B5C3;
+        padding-bottom: 10px; }
       .projects .grid .text .description {
-        color: #A2B5C3; }
+        color: #E7E5E2; }
       .projects .grid .text .tools-title, .projects .grid .text .tools, .projects .grid .text .tool {
         color: #39ADEB;
         font-style: italic; }
@@ -506,7 +507,7 @@
             position: absolute;
             bottom: 5px; } }
         .contact .content .external footer .footnote {
-          color: #A2B5C3;
+          color: #E7E5E2;
           font-size: 0.8rem; }
 
 html, body, #root, .app {
