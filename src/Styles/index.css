@@ -36,26 +36,6 @@
   min-height: 100vh;
   animation: fadeIn;
   animation-duration: 1s; }
-  @media only screen and (max-width: 349px) {
-    .header {
-      background: url("../Media/Images/background-xs.jpg") no-repeat center center;
-      background-size: cover; } }
-  @media only screen and (min-width: 350px) and (max-width: 499px) {
-    .header {
-      background: url("../Media/Images/background-sm.jpg") no-repeat center center;
-      background-size: cover; } }
-  @media only screen and (min-width: 500px) and (max-width: 899px) {
-    .header {
-      background: url("../Media/Images/background-md.jpg") no-repeat center center;
-      background-size: cover; } }
-  @media only screen and (min-width: 900px) and (max-width: 1199px) {
-    .header {
-      background: url("../Media/Images/background-lg.jpg") no-repeat center center;
-      background-size: cover; } }
-  @media only screen and (min-width: 1200px) {
-    .header {
-      background: url("../Media/Images/background-xl.jpg") no-repeat center center;
-      background-size: cover; } }
   .header .navbar {
     position: absolute;
     top: 0;

@@ -3,27 +3,6 @@
 
   @extend %center-middle-content;
 
-  @media only screen and (max-width: 349px)  {
-    background: url('../Media/Images/background-xs.jpg') no-repeat center center;
-    background-size: cover;
-  }
-  @media only screen and (min-width: 350px) and (max-width: 499px)  {
-    background: url('../Media/Images/background-sm.jpg') no-repeat center center;
-    background-size: cover;
-  }
-  @media only screen and (min-width: 500px) and (max-width: 899px)  {
-    background: url('../Media/Images/background-md.jpg') no-repeat center center;
-    background-size: cover;
-  }
-  @media only screen and (min-width: 900px) and (max-width: 1199px)  {
-    background: url('../Media/Images/background-lg.jpg') no-repeat center center;
-    background-size: cover;
-  }
-  @media only screen and (min-width: 1200px)  {
-    background: url('../Media/Images/background-xl.jpg') no-repeat center center;
-    background-size: cover;
-  }
-
   animation: fadeIn;
   animation-duration: 1s;
 

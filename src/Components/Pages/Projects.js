@@ -1,11 +1,11 @@
 import React from "react";
-import { ProjectsData } from "../Data";
+import { ProjectsData } from "../../Data";
 import LazyLoad from "react-lazyload";
 
 const Projects = () => (
   <section className="projects" id="projects">
     <h2 id="projects-heading" className="heading">
-      Projects & Work
+      Work & Projects
       <LazyLoad height={15} once>
         <hr className="divider" />
       </LazyLoad>

@@ -1,7 +1,7 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
 
-const resume = require("../Media/resume.pdf");
+const resume = require("../../Media/resume.pdf");
 
 const Skills = () => (
   <section className="skills">
