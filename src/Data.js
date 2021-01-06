@@ -2,7 +2,7 @@ export const ProjectsData = [
   {
     name: "Hire an Esquire",
     description:
-      "Current employer since 2018. Lead frontend work involving original layouts, designs, wireframes/mockups, code review and the use of a wide variety of libraries and other tools.",
+      "Current employer since 2018. Lead frontend work involving original layouts, designs, wireframes/mockups, code review, and the use of a wide variety of libraries and other tools.",
     tools: [
       { name: "React", link: "https://reactjs.org/" },
       { name: "Hooks", link: "https://reactjs.org/docs/hooks-intro.html" },
