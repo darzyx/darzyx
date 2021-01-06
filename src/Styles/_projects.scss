@@ -74,9 +74,7 @@
         button[name=source] {
           background-color: $projects-background-color;
 
-          transition: background-color 250ms linear;
-
-          &:hover { background-color: $projects-accent-color; }
+          &:hover { border-color: $purple-accent-color; }
         }
       }
     }

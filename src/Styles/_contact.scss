@@ -73,7 +73,7 @@
 
         button[type=reset] {
           background-color: $contact-background-color;
-          &:hover { background-color: $projects-accent-color; }
+          &:hover { border-color: $purple-accent-color; }
         }
       }
     }

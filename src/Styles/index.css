@@ -290,10 +290,9 @@
           .projects .grid .text .buttons button[name=demo]:hover {
             border-color: #706CF5; }
         .projects .grid .text .buttons button[name=source] {
-          background-color: #202A36;
-          transition: background-color 250ms linear; }
+          background-color: #202A36; }
           .projects .grid .text .buttons button[name=source]:hover {
-            background-color: #39ADEB; }
+            border-color: #706CF5; }
   .projects .triangle {
     position: absolute;
     bottom: 0;
@@ -450,7 +449,7 @@
       .contact .content form .buttons button[type=reset] {
         background-color: #242F3B; }
         .contact .content form .buttons button[type=reset]:hover {
-          background-color: #39ADEB; }
+          border-color: #706CF5; }
     .contact .content .external {
       position: relative; }
       @media (max-width: 749px) {
