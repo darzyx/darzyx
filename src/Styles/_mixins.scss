@@ -43,4 +43,9 @@
 
   animation: fadeIn;
   animation-duration: 1s;
+
+  &:hover {
+    transition: transform 0.2s;
+    transform: translate(0, 2px);
+  }
 }

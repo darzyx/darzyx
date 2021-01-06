@@ -97,9 +97,7 @@
         .icon-column {
           @extend %center-middle-content;
 
-          .icon-linkedin {
-            @include hexicon('../Media/Images/icon-linkedin.png');
-          }
+          .icon-linkedin { @include hexicon('../Media/Images/icon-linkedin.png'); }
           .icon-email { @include hexicon('../Media/Images/icon-email.png'); }
           .icon-github { @include hexicon('../Media/Images/icon-github.png'); }
           .icon-phone { @include hexicon('../Media/Images/icon-phone.png'); }

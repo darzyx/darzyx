@@ -472,6 +472,9 @@
           background-size: cover;
           animation: fadeIn;
           animation-duration: 1s; }
+          .contact .content .external .icons-row .icon-column .icon-linkedin:hover {
+            transition: transform 0.2s;
+            transform: translate(0, 2px); }
         .contact .content .external .icons-row .icon-column .icon-email {
           height: 49.5px;
           width: 43px;
@@ -480,6 +483,9 @@
           background-size: cover;
           animation: fadeIn;
           animation-duration: 1s; }
+          .contact .content .external .icons-row .icon-column .icon-email:hover {
+            transition: transform 0.2s;
+            transform: translate(0, 2px); }
         .contact .content .external .icons-row .icon-column .icon-github {
           height: 49.5px;
           width: 43px;
@@ -488,6 +494,9 @@
           background-size: cover;
           animation: fadeIn;
           animation-duration: 1s; }
+          .contact .content .external .icons-row .icon-column .icon-github:hover {
+            transition: transform 0.2s;
+            transform: translate(0, 2px); }
         .contact .content .external .icons-row .icon-column .icon-phone {
           height: 49.5px;
           width: 43px;
@@ -496,6 +505,9 @@
           background-size: cover;
           animation: fadeIn;
           animation-duration: 1s; }
+          .contact .content .external .icons-row .icon-column .icon-phone:hover {
+            transition: transform 0.2s;
+            transform: translate(0, 2px); }
       .contact .content .external .divider-row .divider {
         width: 100%;
         margin: 30px 0 30px 0;
