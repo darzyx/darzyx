@@ -17,17 +17,15 @@ const About = () => (
       </LazyLoad>
       <div className="bio">
         <p>
-          Hey! My name is Jose Dario, and I am a self-taught frontend engineer
-          and university graduate (UCLA Physics B.A. '17) living in Pittsburgh,
-          PA. I enjoy challenges that involve logical reasoning and aesthetics.
-          Everything I create should both be highly usable and visually
-          appealing, and I have fun learning new things that equip me towards
-          that end.
+          Self-taught frontend engineer. I enjoy challenges that involve both
+          logical reasoning and aesthetics. My goal is to have everything I
+          create be highly usable and visually appealing, and I love learning
+          new things that equip me towards that end.
         </p>
         <br />
         <p>
-          Outside of development, I do improv comedy, practice Brazilian
-          jiu-jitsu, and read about cryptocurrencies.
+          Outside of engineering, I do improv, practice jiu-jitsu, and read
+          about crypto/blockchain tech.
         </p>
       </div>
     </div>
