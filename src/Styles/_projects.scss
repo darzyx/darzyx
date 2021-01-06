@@ -42,9 +42,6 @@
 
       .tool {
         transition: 0.5s;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -o-transition: 0.5s;
 
         &:hover { color: #706CF5; }
       }
@@ -70,15 +67,14 @@
 
         button[name=demo] {
           background-color: $contact-accent-color;
+          transition: background-color 250ms linear;
+
+          &:hover { @extend %background-grad; border-color: #706CF5; }
         }
 
         button[name=source] {
           background-color: $contact-background-color;
 
-          -webkit-transition: background-color 250ms linear;
-          -moz-transition: background-color 250ms linear;
-          -o-transition: background-color 250ms linear;
-          -ms-transition: background-color 250ms linear;
           transition: background-color 250ms linear;
 
           &:hover { background-color: $contact-accent-color; }

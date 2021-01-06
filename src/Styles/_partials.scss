@@ -15,21 +15,21 @@
   background: linear-gradient(270deg, #3294bd, #706cf5);
   background-size: 150% 150%;
 
-  -webkit-animation: AnimationName 3s ease infinite;
-  -moz-animation: AnimationName 3s ease infinite;
-  animation: AnimationName 3s ease infinite;
+  -webkit-animation: GradAnimation 0.75s ease infinite;
+  -moz-animation: GradAnimation 0.75s ease infinite;
+  animation: GradAnimation 0.75s ease infinite;
 
-  @-webkit-keyframes AnimationName {
+  @-webkit-keyframes GradAnimation {
       0%{background-position:0% 50%}
       50%{background-position:100% 50%}
       100%{background-position:0% 50%}
   }
-  @-moz-keyframes AnimationName {
+  @-moz-keyframes GradAnimation {
       0%{background-position:0% 50%}
       50%{background-position:100% 50%}
       100%{background-position:0% 50%}
   }
-  @keyframes AnimationName {
+  @keyframes GradAnimation {
       0%{background-position:0% 50%}
       50%{background-position:100% 50%}
       100%{background-position:0% 50%}
@@ -43,4 +43,16 @@
   border-image: -moz-linear-gradient(right, #3294BD, #706CF5); /* For Firefox 3.6 to 15 */
   border-image: linear-gradient(to right, #3294BD , #706CF5); /* Standard syntax (must be last) */
   border-image-slice: 1;
+}
+
+%magic-button-styles {
+  background-color: $contact-accent-color;
+
+  -webkit-transition: background-color 250ms linear;
+  -moz-transition: background-color 250ms linear;
+  -o-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+
+  &:hover { @extend %background-grad; border-color: #706CF5; }
 }
