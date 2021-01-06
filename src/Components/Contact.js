@@ -15,14 +15,27 @@ const Contact = () => (
         className="form"
         method="POST"
       >
-        <input className="name" name="Name" placeholder="Name" type="text" />
+        <input
+          className="name"
+          name="Name"
+          placeholder="Name"
+          type="text"
+          autoComplete="off"
+        />
         <input
           className="email"
           name="Email"
           placeholder="Email"
           type="email"
+          autoComplete="off"
         />
-        <input className="phone" name="Phone" placeholder="Phone" type="tel" />
+        <input
+          className="phone"
+          name="Phone"
+          placeholder="Phone"
+          type="tel"
+          autoComplete="off"
+        />
         <textarea
           className="message"
           name="Message"
@@ -30,6 +43,7 @@ const Contact = () => (
           required
           rows="8"
           type="text"
+          autoComplete="off"
         />
         <div className="buttons">
           <button type="submit">Send</button>
