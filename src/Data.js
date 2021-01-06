@@ -25,21 +25,9 @@ export const ProjectsData = [
       { name: "Semantic UI", link: "https://semantic-ui.com/" },
       { name: "React Router", link: "https://reacttraining.com/react-router/" },
     ],
-    demoLink: "https://www.avhappenings.com/",
+    demoLink: "https://darzyx.github.io/av-happenings/",
     sourceLink: "https://github.com/darzyx/av-happenings",
     image: require("./Media/Images/avhappenings.png"),
-  },
-  {
-    name: "Faux Blockchain Services",
-    description:
-      "A website design/mockup for an imaginary blockchain services company. Features original design and landing page animation.",
-    tools: [
-      { name: "React", link: "https://reactjs.org/" },
-      { name: "Styled Components", link: "https://www.styled-components.com/" },
-    ],
-    demoLink: "https://darzyx.github.io/faux-blockchain-services/",
-    sourceLink: "https://github.com/darzyx/faux-blockchain-services",
-    image: require("./Media/Images/fauxblockchain.png"),
   },
   {
     name: "Portfolio Website",
@@ -56,6 +44,18 @@ export const ProjectsData = [
     demoLink: "https://www.darzyx.com/",
     sourceLink: "https://github.com/darzyx/darzyx",
     image: require("./Media/Images/background-xs.jpg"),
+  },
+  {
+    name: "Faux Blockchain Services",
+    description:
+      "A website design/mockup for an imaginary blockchain services company. Features original design and landing page animation.",
+    tools: [
+      { name: "React", link: "https://reactjs.org/" },
+      { name: "Styled Components", link: "https://www.styled-components.com/" },
+    ],
+    demoLink: "https://darzyx.github.io/faux-blockchain-services/",
+    sourceLink: "https://github.com/darzyx/faux-blockchain-services",
+    image: require("./Media/Images/fauxblockchain.png"),
   },
   {
     name: "Near Earth Objects",
