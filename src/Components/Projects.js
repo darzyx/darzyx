@@ -5,7 +5,7 @@ import LazyLoad from "react-lazyload";
 const Projects = () => (
   <section className="projects" id="projects">
     <h2 id="projects-heading" className="heading">
-      Projects
+      Projects & Work
       <LazyLoad height={15} once>
         <hr className="divider" />
       </LazyLoad>

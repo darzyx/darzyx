@@ -1,5 +1,19 @@
 export const ProjectsData = [
   {
+    name: "Hire an Esquire",
+    description:
+      "Current employer since 2018. Lead frontend work involving original layouts, designs, wireframes/mockups, code review and the use of a wide variety of libraries and other tools.",
+    tools: [
+      { name: "React", link: "https://reactjs.org/" },
+      { name: "Hooks", link: "https://reactjs.org/docs/hooks-intro.html" },
+      { name: "React Bootstrap", link: "https://react-bootstrap.github.io/" },
+      { name: "Styled Components", link: "https://www.styled-components.com/" },
+    ],
+    demoLink: "https://hireanesquire.com/",
+    sourceLink: "",
+    image: require("./Media/Images/hae.png"),
+  },
+  {
     name: "HiTech Lowlife",
     description:
       "Mock-up. Desktop-based, 2D platformer, pixel art video game level written in JavaScript. Features open source, web optimized pixel art and audio.",
