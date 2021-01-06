@@ -2,7 +2,7 @@
   background-color: $skills-background-color;
 
   padding-bottom: 20vh;
-  
+
   .heading {
     @include section-heading($skills-primary-color);
     .divider { @include heading-divider($skills-accent-color); }
@@ -92,12 +92,16 @@
 
       a {
         .download-button {
-          @extend %background-grad;
-          @extend %border-grad;
-
           width: 250px;
 
-          color: $skills-primary-color;
+          border: 1px solid $contact-accent-color;
+          border-radius: 8px;
+          color: $contact-primary-color;
+
+          background-color: $contact-accent-color;
+          transition: background-color 250ms linear;
+
+          &:hover { @extend %background-grad; border-color: #706CF5; }
         }
       }
     }

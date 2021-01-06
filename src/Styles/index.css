@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: center; }
 
-.skills .content .download-container a .download-button, .projects .grid .text .buttons button[name=demo]:hover, .contact .content form .buttons button[type=submit] {
+.skills .content .download-container a .download-button:hover, .projects .grid .text .buttons button[name=demo]:hover, .contact .content form .buttons button[type=submit] {
   background: linear-gradient(270deg, #3294bd, #706cf5);
   background-size: 150% 150%;
   -webkit-animation: GradAnimation 0.75s ease infinite;
@@ -50,7 +50,7 @@
   100% {
     background-position: 0% 50%; } }
 
-.skills .content .download-container a .download-button, .contact .content form .buttons button {
+.contact .content form .buttons button {
   border-image: #3294BD;
   /* For browsers that do not support gradients */
   border-image: -webkit-linear-gradient(left, #3294BD, #706CF5);
@@ -238,7 +238,13 @@
       width: 100%; }
       .skills .content .download-container a .download-button {
         width: 250px;
-        color: #FFFFFF; }
+        border: 1px solid #39ADEB;
+        border-radius: 8px;
+        color: #FFFFFF;
+        background-color: #39ADEB;
+        transition: background-color 250ms linear; }
+        .skills .content .download-container a .download-button:hover {
+          border-color: #706CF5; }
   .skills .triangle {
     position: absolute;
     bottom: 0;
