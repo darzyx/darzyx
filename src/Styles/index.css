@@ -332,20 +332,25 @@
     .about .content .bio {
       height: 100%;
       color: #A2B5C3; }
-      .about .content .bio p {
-        color: #E7E5E2; }
-        @media (max-width: 599px) {
-          .about .content .bio p {
-            width: 100%;
-            grid-row: 2;
-            text-align: center;
-            padding: 0 5vw 0 5vw; } }
-        @media (min-width: 600px) {
-          .about .content .bio p {
-            width: 280px;
-            grid-column: 2;
-            text-align: left;
-            padding: 0; } }
+      .about .content .bio div {
+        padding: 20px;
+        background-color: #242F3B;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 8px; }
+        .about .content .bio div p {
+          color: #E7E5E2; }
+          @media (max-width: 599px) {
+            .about .content .bio div p {
+              width: 100%;
+              grid-row: 2;
+              text-align: center;
+              padding: 0 5vw 0 5vw; } }
+          @media (min-width: 600px) {
+            .about .content .bio div p {
+              width: 240px;
+              grid-column: 2;
+              text-align: left;
+              padding: 0; } }
   .about .triangle {
     position: absolute;
     bottom: 0;

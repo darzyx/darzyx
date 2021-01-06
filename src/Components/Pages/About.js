@@ -16,17 +16,19 @@ const About = () => (
         </div>
       </LazyLoad>
       <div className="bio">
-        <p>
-          Self-taught frontend engineer. I enjoy challenges that involve both
-          logical reasoning and aesthetics. My goal is to have everything I
-          create be highly usable and visually appealing, and I love learning
-          new things that equip me towards that end.
-        </p>
-        <br />
-        <p>
-          Outside of engineering, I do improv, practice jiu-jitsu, and read
-          about crypto/blockchain tech.
-        </p>
+        <div>
+          <p>
+            Self-taught frontend engineer. I enjoy challenges that involve both
+            logical reasoning and aesthetics. My goal is to have everything I
+            create be highly usable and visually appealing, and I love learning
+            new things that equip me towards that end.
+          </p>
+          <br />
+          <p>
+            Outside of engineering, I do improv, practice jiu-jitsu, and read
+            about crypto/blockchain tech.
+          </p>
+        </div>
       </div>
     </div>
     <div className="triangle"></div>

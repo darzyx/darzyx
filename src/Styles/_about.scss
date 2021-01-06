@@ -42,19 +42,28 @@
     .bio {
       @extend %center-middle-content;
 
-      p {
-        color: $light-font-color;
-        @media (max-width: 599px) {
-          width: 100%;
-          grid-row: 2;
-          text-align: center;
-          padding: 0 5vw 0 5vw;
-        }
-        @media (min-width: 600px) {
-          width: 280px;
-          grid-column: 2;
-          text-align: left;
-          padding: 0;
+      div {
+        padding: 20px;
+
+        background-color: $app-background-color;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+        border-radius: 8px;
+
+        p {
+          color: $light-font-color;
+
+          @media (max-width: 599px) {
+            width: 100%;
+            grid-row: 2;
+            text-align: center;
+            padding: 0 5vw 0 5vw;
+          }
+          @media (min-width: 600px) {
+            width: 240px;
+            grid-column: 2;
+            text-align: left;
+            padding: 0;
+          }
         }
       }
 
