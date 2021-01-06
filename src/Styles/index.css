@@ -20,8 +20,8 @@
   align-items: center; }
 
 .skills .content .download-container a .download-button:hover, .projects .grid .text .buttons button[name=demo]:hover, .contact .content form .buttons button[type=submit] {
-  background: linear-gradient(90deg, #3294bd, #706cf5);
-  background-size: 125% 125%;
+  background: linear-gradient(90deg, #706cf5, #3294bd, #706cf5);
+  background-size: 150% 150%;
   animation: GradAnimation 1s ease infinite; }
 
 @keyframes GradAnimation {
@@ -223,8 +223,7 @@
         border: 1px solid #39ADEB;
         border-radius: 8px;
         color: #FFFFFF;
-        background-color: #39ADEB;
-        transition: background-color 250ms linear; }
+        background-color: #39ADEB; }
         .skills .content .download-container a .download-button:hover {
           border-color: #706CF5; }
   .skills .triangle {
@@ -300,8 +299,7 @@
           border-radius: 8px;
           color: #FFFFFF; }
         .projects .grid .text .buttons button[name=demo] {
-          background-color: #39ADEB;
-          transition: background-color 250ms linear; }
+          background-color: #39ADEB; }
           .projects .grid .text .buttons button[name=demo]:hover {
             border-color: #706CF5; }
         .projects .grid .text .buttons button[name=source] {

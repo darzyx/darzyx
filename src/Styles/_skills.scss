@@ -99,7 +99,6 @@
           color: $contact-primary-color;
 
           background-color: $contact-accent-color;
-          transition: background-color 250ms linear;
 
           &:hover { @extend %background-grad; border-color: #706CF5; }
         }
