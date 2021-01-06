@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: center; }
 
-.skills .content .download-container a .download-button:hover, .projects .grid .text .buttons button[name=demo]:hover, .contact .content form .buttons button:hover, .contact .content form .buttons button[type=submit] {
+.skills .content .download-container a .download-button:hover, .projects .grid .text .buttons button[name=demo]:hover, .contact .content form .buttons button[type=submit]:hover {
   background: linear-gradient(90deg, #706cf5, #3294bd, #706cf5);
   background-size: 150% 150%;
   animation: GradAnimation 1s ease infinite; }
@@ -442,12 +442,15 @@
       .contact .content form .buttons button {
         border: 1px solid #39ADEB;
         border-radius: 8px;
-        color: #FFFFFF;
+        color: #FFFFFF; }
+      .contact .content form .buttons button[type=submit] {
         background-color: #39ADEB; }
-        .contact .content form .buttons button:hover {
+        .contact .content form .buttons button[type=submit]:hover {
           border-color: #706CF5; }
       .contact .content form .buttons button[type=reset] {
         background-color: #242F3B; }
+        .contact .content form .buttons button[type=reset]:hover {
+          background-color: #39ADEB; }
     .contact .content .external {
       position: relative; }
       @media (max-width: 749px) {

@@ -64,15 +64,17 @@
           border: 1px solid $contact-accent-color;
           border-radius: 8px;
           color: $contact-primary-color;
+        }
 
+        button[type=submit] {
           background-color: $contact-accent-color;
-
           &:hover { @extend %background-grad; border-color: #706CF5; }
         }
 
-        button[type=submit] { @extend %background-grad; }
-
-        button[type=reset] { background-color: $contact-background-color; }
+        button[type=reset] {
+          background-color: $contact-background-color;
+          &:hover { background-color: $projects-accent-color; }
+        }
       }
     }
 
