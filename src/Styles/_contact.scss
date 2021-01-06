@@ -26,11 +26,12 @@
 
         margin: 0 0 25px 0;
 
-        padding: 5px;
+        padding: 6px 12px;
 
         background-color: $contact-form-background-color;
         color: $contact-primary-color;
         border: none;
+        border-radius: 8px;
 
         &:focus {
           outline: none; /* Not border-radius enabled */
@@ -59,7 +60,15 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
 
-        button { @extend %border-grad; color: $contact-primary-color; }
+        button {
+          border: 1px solid $contact-accent-color;
+          border-radius: 8px;
+          color: $contact-primary-color;
+
+          background-color: $contact-accent-color;
+
+          &:hover { @extend %background-grad; border-color: #706CF5; }
+        }
 
         button[type=submit] { @extend %background-grad; }
 

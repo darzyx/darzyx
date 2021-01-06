@@ -23,12 +23,3 @@
       100%{background-position:0% 50%}
   }
 }
-
-%border-grad {
-  border-image: #3294BD; /* For browsers that do not support gradients */
-  border-image: -webkit-linear-gradient(left, #3294BD , #706CF5); /* For Safari 5.1 to 6.0 */
-  border-image: -o-linear-gradient(right, #3294BD, #706CF5); /* For Opera 11.1 to 12.0 */
-  border-image: -moz-linear-gradient(right, #3294BD, #706CF5); /* For Firefox 3.6 to 15 */
-  border-image: linear-gradient(to right, #3294BD , #706CF5); /* Standard syntax (must be last) */
-  border-image-slice: 1;
-}

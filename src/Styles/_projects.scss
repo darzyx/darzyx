@@ -60,23 +60,23 @@
         padding: 10px;
 
         button {
-          border: 1px solid $contact-accent-color;
+          border: 1px solid $projects-accent-color;
           border-radius: 8px;
-          color: $contact-primary-color;
+          color: $projects-primary-color;
         }
 
         button[name=demo] {
-          background-color: $contact-accent-color;
+          background-color: $projects-accent-color;
 
           &:hover { @extend %background-grad; border-color: #706CF5; }
         }
 
         button[name=source] {
-          background-color: $contact-background-color;
+          background-color: $projects-background-color;
 
           transition: background-color 250ms linear;
 
-          &:hover { background-color: $contact-accent-color; }
+          &:hover { background-color: $projects-accent-color; }
         }
       }
     }

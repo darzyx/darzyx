@@ -94,11 +94,11 @@
         .download-button {
           width: 250px;
 
-          border: 1px solid $contact-accent-color;
+          border: 1px solid $skills-accent-color;
           border-radius: 8px;
-          color: $contact-primary-color;
+          color: $skills-primary-color;
 
-          background-color: $contact-accent-color;
+          background-color: $skills-accent-color;
 
           &:hover { @extend %background-grad; border-color: #706CF5; }
         }
